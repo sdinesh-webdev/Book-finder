@@ -99,13 +99,7 @@ export default function BookDetails() {
               "No description available"}
           </div>
 
-          {/* 🔊 Read Aloud Button */}
-          <button
-            onClick={handleReadAloud}
-            className="mb-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 w-fit"
-          >
-            {playing ? "⏹ Stop Reading" : "🔊 Read Description"}
-          </button>
+      
 
           {/* First Published */}
           {book.first_publish_date && (
